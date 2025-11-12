@@ -1,0 +1,22 @@
+{
+  "name": "lab-8",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sabchhetri-stack"
+  },
+  "license": "MIT",
+  "author": "Sabin",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+  "build-css": "sass scss/bootstrap.scss css/bootstrap.css && sass scss/style.scss css/style.css",
+  "watch-css": "sass --watch scss:css"
+},
+
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "sass": "^1.94.0"
+  }
+}
